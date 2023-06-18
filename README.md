@@ -19,6 +19,6 @@ docker run -d -p <port>:<port> \
 -e DB_PORT="DB_PORT" \
 -e TOKEN_TTL="JWT_TOKEN_TTL" \
 -e JWT_PRIVATE_KEY="JWT_TOKEN_PRIVATE_KEY" \
--e INFERENCE_SERVER="http://INFERENCE_SERVER_IP" \
+-e INFERENCE_SERVER="http://INFERENCE_SERVER_ADDR" \
 --name gass-server gass-server:v1
 ```
